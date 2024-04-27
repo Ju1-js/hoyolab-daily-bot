@@ -11,7 +11,7 @@ Genshin Impact's Hoyolab Daily Check-in Bot is here! The concept is simple, **ru
 
 # Prerequisites 🎯
 - Windows OS
-- Have login to mihoyo's website at any browser (A login for a year is enough)
+- Have login to hoyolab's website at any browser (A login for a year is enough)
 
 # How to use ✨
 1. [Download the newest release (.zip)](https://github.com/darkGrimoire/hoyolab-daily-bot/releases/latest) and extract
@@ -21,7 +21,7 @@ Genshin Impact's Hoyolab Daily Check-in Bot is here! The concept is simple, **ru
 # Configuration File (v1.1.5+)
 - **BROWSER**: You can target specific browser to be used for login. Please beware that this program doesn't support account chooser yet, so if you have multiple account you may use a browser you rarely use that only contains 1 account information.  
 Currently supported browsers are: `firefox`, `chrome`, `chromium`, `opera`, and `edge`. The default is `all`.
-- **SERVER_UTC**: Server UTC in each server is different. You can check your UTC in [Your Hoyolab Daily Check-in page.](https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us) The default for Asia server is +8 UTC.
+- **SERVER_UTC**: Server UTC in each server is different. You can check your UTC in [Your Hoyolab Daily Check-in page.](https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481&lang=en-us) The default for Asia server is +8 UTC.
 - **DELAY_MINUTE**: Sometimes, your PC is some minutes earlier than the server time. If you're experiencing reward already claimed whenever the bot started, please add some delay.
 - **RANDOMIZER**: Turn on (`true`) or off (`false`) for randomizing bot scheduler. Default is `false`
 - **RANDOM_RANGE**: Range in seconds for randomizing bot scheduler. Default is `3600` (means the bot will starts delayed randomly within 1 hour after daily reset).

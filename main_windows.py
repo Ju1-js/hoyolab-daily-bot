@@ -79,7 +79,7 @@ except Exception as e:
 
 found = False
 for cookie in cookies:
-    if cookie.name == "ltoken":
+    if cookie.name == "ltoken_v2":
         found = True
         break
 if not found:
@@ -230,7 +230,7 @@ def checkUpdates():
 # MAIN PROGRAM
 def main():
     log.write(f'\nSTART BOT: {datetime.now().strftime("%d/%m/%Y %H:%M:%S")}\n')
-    print("Connecting to mihoyo...")
+    print("Connecting to hoyolab...")
     is_done = False
     while not is_done:
         check = isClaimed()
